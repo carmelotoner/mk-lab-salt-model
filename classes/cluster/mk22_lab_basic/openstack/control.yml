@@ -23,18 +23,12 @@ classes:
 - cluster.mk22_lab_basic
 parameters:
   _param:
-    keepalived_vip_interface: eth1
+    keepalived_vip_interface: eth0
   linux:
     system:
       package:
         python-msgpack:
           version: latest
-    network:
-      interface:
-        eth1:
-          enabled: true
-          type: eth
-          proto: dhcp
   keepalived:
     cluster:
       instance:
