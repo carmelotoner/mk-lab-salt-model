@@ -11,9 +11,3 @@ parameters:
       repo:
         tcpcloud_openstack:
           source: deb [arch=amd64] http://apt.tcpcloud.eu/nightly/ trusty liberty
-    network:
-      interface:
-        eth1:
-          enabled: true
-          type: eth
-          proto: dhcp

@@ -31,10 +31,3 @@ parameters:
     cluster_node02_address: ${_param:stacklight_monitor_node02_address}
     cluster_node03_name: mon03
     cluster_node03_address: ${_param:stacklight_monitor_node03_address}
-  linux:
-    network:
-      interface:
-        ens4:
-          enabled: true
-          type: eth
-          proto: dhcp
